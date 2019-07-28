@@ -1,9 +1,3 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:1000/eureka/
-  instance:
-    prefer-ip-address: true #使用ip注册到eureka服务列表
 server:
   port: 4399
 spring:
